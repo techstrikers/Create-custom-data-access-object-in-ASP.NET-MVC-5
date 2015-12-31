@@ -1,0 +1,5 @@
+C:\development\MVCCustomObject\DataAccess\bin\Release\DataAccess.dll
+C:\development\MVCCustomObject\DataAccess\bin\Release\DataAccess.pdb
+C:\development\MVCCustomObject\DataAccess\obj\Release\DataAccess.dll
+C:\development\MVCCustomObject\DataAccess\obj\Release\DataAccess.pdb
+C:\development\MVCCustomObject\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache

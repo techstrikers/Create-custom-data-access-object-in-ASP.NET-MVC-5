@@ -1,0 +1,83 @@
+﻿@model DataAccessLayer.Employee
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Employee</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Designation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Designation)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Role)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Role)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Gender)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Gender)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Salary)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Salary)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Zip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zip)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Address)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address)
+    </div>
+</fieldset>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

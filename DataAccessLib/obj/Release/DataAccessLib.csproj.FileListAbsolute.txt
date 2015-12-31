@@ -1,0 +1,8 @@
+C:\development\MVCCustomObject\DataAccess\bin\Release\DataAccess.dll
+C:\development\MVCCustomObject\DataAccess\bin\Release\DataAccess.pdb
+C:\development\MVCCustomObject\DataAccess\obj\Release\DataAccess.dll
+C:\development\MVCCustomObject\DataAccess\obj\Release\DataAccess.pdb
+C:\development\MVCCustomObject\DataAccessLib\bin\Release\DataAccessLib.dll
+C:\development\MVCCustomObject\DataAccessLib\bin\Release\DataAccessLib.pdb
+C:\development\MVCCustomObject\DataAccessLib\obj\Release\DataAccessLib.dll
+C:\development\MVCCustomObject\DataAccessLib\obj\Release\DataAccessLib.pdb

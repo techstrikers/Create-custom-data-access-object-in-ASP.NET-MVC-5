@@ -1,0 +1,78 @@
+﻿@model DataAccessLayer.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Employee</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Designation)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Designation)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Role)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Role)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Gender)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Gender)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Salary)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Salary)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Zip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zip)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.Address)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Update", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
